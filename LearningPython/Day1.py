@@ -12,5 +12,3 @@ def from_bas_10(n, b):
         n, m = n // b, n % b
         digits.insert(0, m)
     return digits
-
-print(from_bas_10(10, 2))
