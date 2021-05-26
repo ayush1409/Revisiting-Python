@@ -1,3 +1,5 @@
+# WORKING WITH INTEGERS
+# n = b * (n // b) + n % b
 # Function to represent a number in different base
 def from_bas_10(n, b):
     if b < 2:
